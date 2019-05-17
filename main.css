@@ -1,43 +1,37 @@
 * {
-    padding: 0;
-    margin: 0;
-box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+
 }
 
 #container {
-    widht: 970px;
-    border: 1px solid black;
-margin: auto;
-
-
+    border: 5px solid #230672 ;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    margin: auto;
 }
 
 #head {
-    background: #ccc;
-    padding: 15px;
+    background: #1240AB;
+    padding: 20px;
+    height: 100%;
+    width: auto;
 }
 
 #content {
-    margin-top: 15px;
+    margin-top: auto;
 overflow: hidden;
+    padding: 10px;
 }
 
 .leftBlock {
-    background: #b259cc;
-    padding:  15px;
-    width: 70%;
-    float: left;
+    background: #009999;
+    padding: 10%;
+    height: auto;
+    width: auto;
+
 }
 
-.rightBlock {
-    background: #cc6434;
-    padding:  15px;
-    width: 30%;
-    float: right;
-}
-
-#footer {
-    margin-top: 15px;
-    background: #ccc;
-    padding: 15px;
-}

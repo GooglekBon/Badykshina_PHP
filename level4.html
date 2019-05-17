@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
+
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="main.css" rel="stylesheet"/>
 
+    <style>
+         body{
+
+            font-family: "Times New Roman";}
+        
+
+</style>
+
+<body>
+
     <div id="container">
         <div id="head">
-            <div class="headContent">
+            <div class="headContainer">
+                <p align="center" style="color: black; font-size:25px" >
                 Форма регистрации
+                </p>
+
             </div>
         </div>
 
@@ -16,28 +30,66 @@
         <div id="content">
             <div class="leftBlock">
                 <div class="regForm">
-                    Регистрационные данные
+                    <p align="center" style="color: black; font-size:20px" >
+                        Регистрационные данные
+                    </p>
                 </div>
+
+
                 <div class="regFormItem">
                     <div class="regFormItemLabel">
-                         email
+                        email
                 </div>
                     <div class="regFormItemContent">
-                         <input type="email" class="regFormItemContent">
+                         <input type="email" class="regFormItemContent"/>
                 </div>
+
+                    <div class="regFormItemLabel">
+                    Пароль
+                    </div>
+                    <div class="regFormItemLabel">
+                        <input type="password" min="7" max="16" class="regFormItemContent"/>
+                    </div>
+
+                    <div class="regFormItemLabel">
+                    Повтор пароля
+                    </div>
+                    <div class="regFormItemLabel">
+                        <input type="password" min="7" max="16" class="regFormItemContent" >
+                    </div>
+
+                    <div class="regFormItemLabel">
+                    Имя
+                    </div>
+                    <div class="regFormItemLabel">
+                        <input type="text" class="regFormItemContent" >
+                    </div>
+
+                    <div class="regFormItemLabel">
+                    Фамилия
+                    </div>
+                    <div class="regFormItemLabel">
+                        <input type="text" class="regFormItemContent" >
+                    </div>
+
+                    <div class="regFormItemLabel">
+                    Возраст
+                    </div>
+                    <div class="regFormItemLabel">
+                        <input type="number" min="7" max="120" step="1" class="regFormItemContent" >
+                    </div>
+
+
+                    <div class="regFormItemLabel">
+                        <input type="submit" class="regFormItemContent" >
+                    </div>
                 </div>
             </div>
 
     </div>
 
-        <div class="rightBlock">
-            rightBlock
-        </div>
-
-    </div>
-    <div class="footerContent">
-        footerContent
     </div>
 
 </head>
-<body>
+
+</body>
