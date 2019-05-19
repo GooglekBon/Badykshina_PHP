@@ -1,10 +1,21 @@
-* {
+
+@import url(//db.onlinewebfonts.com/c/549dddcecfd3e61f35f4fde66019618f?family=Bookshelf+Symbol+7);
+@font-face {font-family: "Bookshelf Symbol 7";
+    src: url("//db.onlinewebfonts.com/t/549dddcecfd3e61f35f4fde66019618f.eot");
+    src: url("//db.onlinewebfonts.com/t/549dddcecfd3e61f35f4fde66019618f.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/549dddcecfd3e61f35f4fde66019618f.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/549dddcecfd3e61f35f4fde66019618f.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/549dddcecfd3e61f35f4fde66019618f.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/549dddcecfd3e61f35f4fde66019618f.svg#Bookshelf Symbol 7") format("svg");
+}
+
+*{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
 
-
 }
+
 
 #container {
     border: 5px solid #230672 ;
